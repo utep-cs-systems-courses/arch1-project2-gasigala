@@ -1,4 +1,4 @@
-#Ainclude <msp430.h>
+#include <msp430.h>
 #include "led.h"
 #include "switches.h"
 
@@ -40,7 +40,6 @@ void leds_on(int on){
 }
 
 void swap_leds(int on){
-  {
   switch(on){
   case 0:
     red_on(1);
@@ -55,3 +54,4 @@ void swap_leds(int on){
     break;
   }
 }
+  

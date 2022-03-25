@@ -23,12 +23,12 @@ void __interrupt_vec(WDT_VECTOR) WDT ()                    // 250 interrupts/sec
   }
   else if ((count % 31) == 0 && sw2_press_state == 1){     // SWITCH 2
     led_update();
-    play_song_2();
+    // play_song_2();
     count = 0;
   }
   else if ((count % 31) == 0 && sw3_press_state == 1){     // SWITCH 3
     led_update();
-    play_song_3();
+    //s play_song_3();
     count = 0;
   }
   else if ((count % 125) == 0 && sw4_press_state == 1){    // SWITCH 4 
