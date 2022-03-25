@@ -73,7 +73,7 @@
 #define A2 18181
 #define A2_SHARP 17161
 #define B2_FLAT 17161
-#define B2 16198~
+#define B2 16198
 
 
 
